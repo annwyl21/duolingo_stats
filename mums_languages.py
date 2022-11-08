@@ -5,7 +5,7 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 
 df_leaderboard = pd.read_csv('duolingo_leaderboards.csv')
-print(df_leaderboard.head())
+#print(df_leaderboard.head())
 
 #Dataframe storing information about my language studies
 df = pd.DataFrame({
