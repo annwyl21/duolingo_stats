@@ -30,8 +30,8 @@ ax1=plt.figure(figsize=(5,4))
 ax1=plt.subplot()
 ax1=sns.barplot(data=df, x='Language', y='Duolingo Checkpoint Passed')
 ax1=plt.title('Current Level in Languages Learned')
-ax1.set_yticks((1, 2, 3))
-ax1.set_yticklabels(('Level 1', 'Level 2', 'Level 3'))
+#ax1.set_yticks((1, 2, 3))
+#ax1.set_yticklabels(('Level 1', 'Level 2', 'Level 3'))
 
 # #Pie Chart Crowns Earned in each Language
 # ax2=plt.figure(figsize=(4,4))
